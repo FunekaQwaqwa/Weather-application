@@ -1,3 +1,4 @@
+//function to return when temperature submitted
 function myFunction(){
     let temperature = document.getElementById("temperature").value;
     
@@ -15,7 +16,7 @@ function myFunction(){
     }
 
     else if(temperature <18) {
-        alert ("Jacket, Winter Pants, Boots, Scarf, Gloves")
+        alert ("DON'T FREEZE OUT THERE! Jacket, Winter Pants, Boots, Scarf, Gloves")
     }
     else {
         alert ("invalid weather condition");
