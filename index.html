@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css"
 </head>
 <body>
-    <h1>What to wear in Cape Town</h1>
-    <!--Temperature input field and submit button-->
-    <div class="container">    
+    <div class=container>
+    <header class="header">
+        <h1>What to wear in Cape Town</h1>
+        <!--Temperature input field and submit button-->
+        <div class="temp">
             Temperature (&#8451): <input type="number" id="temperature" required>
-            <input type="submit" value="Enter" onclick="whattoWear()">                 
-    </div>
-    <p id=outfit></p>
-    <script src="js/main.js"></script>
+            <input type="submit" id="enter" value="Enter" onclick="whattoWear()">        
+        </div>
+    </header>
+    <main id="main">
+        <div>
+            <p id=outfit></p>
+        </div>
+    </main>            
+    </div>  
+    <script src="js/main.js"></script> 
 </body>
 </html>

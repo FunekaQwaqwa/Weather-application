@@ -18,7 +18,7 @@ function whattoWear(){
         document.getElementById("outfit").innerHTML="DON'T FREEZE OUT THERE! Jacket, Winter Pants, Boots, Scarf, Gloves";
     }
     else{
-        document.getElementById("outfit").innerHTML= "SAFER TO STAY INDOORS";
+        document.getElementById("outfit").innerHTML= "EXTREME COLD! SAFER TO STAY INDOORS";
     }
 }
         
