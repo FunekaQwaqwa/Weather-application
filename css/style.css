@@ -1,6 +1,19 @@
 background-color: #ffffff;
 }
 
+/* body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#bg {
+  background-image: url(img/dawn.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 .container{
   width: 500px;
   height: 300px;
@@ -45,12 +58,12 @@ background-color: #ffffff;
   position: relative;
 }
 
-/* .city-icon {
+.city-icon {
   height: 80%;
   width: 50%;
   border-bottom-left-radius: 25px;
   background-color: #FFC107;
-} */
+}
 
 #outfit {
   position: relative;
@@ -68,12 +81,4 @@ background-color: #ffffff;
   padding-right:8px;
   padding-left:8px;
   text-align:center;
-}
-
-.search {
-  position: absolute;
-  left: 50%;
-  top:50%;
-  -webkit-transform:translate(-50%,-50%);
-          transform:translate(-50%,-50%);
 }
